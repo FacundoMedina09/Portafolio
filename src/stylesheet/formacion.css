@@ -1,0 +1,35 @@
+
+.Contenedor-Formacion ul{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    text-align: center;  
+}
+
+.Contenedor-Formacion img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.Titulo-Formacion, .Estado-Curso{
+    color: var(--letraAzul);
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 650px){
+    
+    .Contenedor-Formacion ul {
+
+        flex-direction: column;
+    }
+    .Contenedor-Formacion ul li {
+
+        margin-bottom: 3rem;
+    }
+
+
+}

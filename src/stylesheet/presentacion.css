@@ -1,0 +1,48 @@
+
+.Contenedor-Presentacion{
+    background-color: var(--backgrounAzul);
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    
+    padding: 10rem 3rem 3rem 3rem;
+ 
+}
+
+.Logo-Presentacion{
+
+    height: 25rem;
+    width: 22rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+
+.Titulo-Presentacion{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--letraBlanca);
+    
+}
+
+.Parrafo-Presentacion{
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--letraBlanca);
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 650px){
+    .Contenedor-Presentacion{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 25rem;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,157 @@
+.Proyectos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Encriptador-Proyecto, .Ahorcado-Proyecto , .Store-Proyecto, .ContadorClic-Proyecto , .Calculadora-Proyecto{
+    display: flex;
+    justify-content: space-around;  
+    padding: 4rem 0;
+}
+
+.Ahorcado-Proyecto, .ContadorClic-Proyecto{
+    background-color: var(--backgrounAzul);
+}
+
+.Contenedor-Boton-Titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.Titulo-Principal-Proyecto,.Titulo-del-Proyecto{
+    color: var(--letraAzul);
+    font-weight: bold;
+}
+
+.Titulo-Ahorcado, .Titulo-ContadorClic{
+    color: var(--letraBlanca);
+}
+
+.Contenedor-Boton{
+    display: flex;
+    flex-direction: column;
+}
+.Boton{
+    height: 3rem;
+    width: 8rem;
+    margin: 2rem 2.8rem;
+    border-radius: 10%;
+    border: none;
+    background-color: var(--backgrounAzul);
+    color: var(--letraBlanca);
+    font-weight: bold;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.Boton-Azul{
+    background-color: var(--backgrounBlanco);
+    color: var(--letraAzul);
+}
+
+.Boton:hover{
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px 4px black;
+    transition: 1s;
+    cursor: pointer;    
+}
+.Proyectos img{
+    width: 100%;
+}
+.Img-Proyectos{
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 50px 5px black;
+}
+.Proyecto-Img-Encriptador{
+    background-image: url(../imagenes/encriptador_main.png);
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+}
+.Proyecto-Img-Ahorcado{
+    background-image: url(../imagenes/ahorcado_main.png);
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+}
+.Proyecto-Img-Store{
+    background-image: url(../imagenes/store_main.png);
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+
+}
+.Proyecto-Img-ContadorClic{
+    background-image: url(../imagenes/contadorClic_main.png);
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+
+}
+.Proyecto-Img-Calculadora{
+    background-image: url(../imagenes/calculadora_main.png);
+    background-size: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35rem;
+    margin-left: 2rem;
+}
+.Proyecto-Img-Store:hover , .Proyecto-Img-Ahorcado:hover, .Proyecto-Img-Encriptador:hover, .Proyecto-Img-ContadorClic:hover, .Proyecto-Img-Calculadora:hover {
+    cursor: pointer;
+    animation: movimiento 15s infinite;
+}
+@keyframes movimiento {
+    from{
+        background-position: top;
+    }
+    to{
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 650px){
+    
+    .Encriptador-Proyecto, .Ahorcado-Proyecto , .Store-Proyecto, .ContadorClic-Proyecto , .Calculadora-Proyecto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 2rem 0;
+    }
+    .Titulo-Principal-Proyecto, .Titulo-del-Proyecto{
+        margin: 2rem 0;
+    }
+
+    .Proyecto-Img-Store, .Proyecto-Img-Ahorcado, .Proyecto-Img-Encriptador, .Proyecto-Img-ContadorClic, .Proyecto-Img-Calculadora{
+        width: 100%;
+    }
+
+    .Proyecto-Img-Store:hover , .Proyecto-Img-Ahorcado:hover, .Proyecto-Img-Encriptador:hover, .Proyecto-Img-ContadorClic:hover, .Proyecto-Img-Calculadora:hover {
+        cursor: pointer;
+        animation: none;
+        width: 100%;
+    }
+
+}
