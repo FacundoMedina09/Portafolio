@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.5110408c.css",
+    "main.js": "/Portafolio/static/js/main.410060ef.js",
+    "static/media/store_main.png": "/Portafolio/static/media/store_main.0b950c24f6090289b59c.png",
+    "static/media/mysql.png": "/Portafolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/encriptador_main.png": "/Portafolio/static/media/encriptador_main.4ddc4d1569bce5735220.png",
+    "static/media/linux.png": "/Portafolio/static/media/linux.52436d320ae393a934a0.png",
+    "static/media/calculadora_main.png": "/Portafolio/static/media/calculadora_main.a4d1c2420f180b7f0f5a.png",
+    "static/media/twitter.png": "/Portafolio/static/media/twitter.d8237a3f48f01e81c0d7.png",
+    "static/media/ahorcado_main.png": "/Portafolio/static/media/ahorcado_main.b0dee495f601384814d2.png",
+    "static/media/contadorClic_main.png": "/Portafolio/static/media/contadorClic_main.6bbc7468bd3dc0b5f6d9.png",
+    "static/media/bootstrap.png": "/Portafolio/static/media/bootstrap.caafbb5567c905e583e8.png",
+    "static/media/linkedin.png": "/Portafolio/static/media/linkedin.a680cb8ad2b88be03d17.png",
+    "static/media/foto.png": "/Portafolio/static/media/foto.b712bfe4ce74619fb2ff.png",
+    "static/media/react.png": "/Portafolio/static/media/react.c39fe1cf1dc6559c7db6.png",
+    "static/media/python.png": "/Portafolio/static/media/python.6753356676bc2c3c694f.png",
+    "static/media/java.png": "/Portafolio/static/media/java.06527bf608d1b7e70e88.png",
+    "static/media/unaj.png": "/Portafolio/static/media/unaj.5b26b2a65d29a056e4ab.png",
+    "static/media/wave.png": "/Portafolio/static/media/wave.fa59e76a7a7abfb6f6b1.png",
+    "index.html": "/Portafolio/index.html",
+    "main.5110408c.css.map": "/Portafolio/static/css/main.5110408c.css.map",
+    "main.410060ef.js.map": "/Portafolio/static/js/main.410060ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5110408c.css",
+    "static/js/main.410060ef.js"
+  ]
+}
